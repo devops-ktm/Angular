@@ -12,16 +12,4 @@ jobs:
       image_name: angular
 
 
-      #- name: Log in to GitHub Container Registry
-       # uses: docker/login-action@v3
-       # with:
-          #registry: ghcr.io
-          #username: ${{ github.actor }}
-          
-         # password: ${{ secrets.GITHUB_TOKEN }}
-
-     # - name: Build Docker image with tag
-       # run: docker build -t ${{ inputs.image_name }}:${{ inputs.image_tag }} .
-
-      #- name: Push Docker image with tag
-        #run: docker push ${{ inputs.image_name }}:${{ inputs.image_tag }}
+     
